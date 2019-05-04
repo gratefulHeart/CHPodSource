@@ -1,0 +1,6 @@
+framework module PodSource {
+  umbrella header "PodSource-umbrella.h"
+
+  export *
+  module * { export * }
+}

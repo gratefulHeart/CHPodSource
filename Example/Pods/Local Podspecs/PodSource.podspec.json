@@ -1,0 +1,27 @@
+{
+  "name": "PodSource",
+  "version": "0.1.0",
+  "summary": "A short description of PodSource.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lichanghong/LaunchGif.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1211054926@qq.com": "f27_100008550770_yongsheng@git.cloud.tencent.com"
+  },
+  "source": {
+    "git": "https://github.com/lichanghong/LaunchGif.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PodSource/Classes/**/*",
+  "resource_bundles": {
+    "PodSource": [
+      "PodSource/Assets/*.png"
+    ]
+  }
+}
