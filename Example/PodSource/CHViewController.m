@@ -7,6 +7,7 @@
 //
 
 #import "CHViewController.h"
+#import <PodSource/CHView.h>
 
 @interface CHViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    CHView *chview = [[CHView alloc]initWithFrame:self.view.bounds];
+    [self.view addSubview:chview];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
