@@ -25,7 +25,7 @@
 - (UILabel *)label
 {
     if (!_label) {
-        _label = [[UILabel alloc]initWithFrame:CGRectMake(10, 60, 300, 80)];
+        _label = [[UILabel alloc]initWithFrame:CGRectMake(10, 60, 300, 280)];
         _label.numberOfLines = 0;
         _label.backgroundColor = [UIColor redColor];
     }
