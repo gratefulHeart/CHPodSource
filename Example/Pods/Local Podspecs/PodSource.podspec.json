@@ -1,7 +1,9 @@
 {
   "name": "PodSource",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of PodSource.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lichanghong/LaunchGif.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -9,15 +11,18 @@
   "authors": {
     "1211054926@qq.com": "com"
   },
-  "homepage": "https://github.com/lichanghong/LaunchGif.git",
-  "description": "TODO: Add long description of the pod here.",
   "source": {
-    "path": "."
+    "git": "/Users/lichanghong/Documents/CHPodSource"
   },
   "platforms": {
     "ios": "8.0"
   },
   "ios": {
-    "vendored_frameworks": "ios/PodSource.framework"
+    "source_files": "PodSource/Classes/**/*",
+    "resource_bundles": {
+      "PodSource": [
+        "PodSource/Assets/*.png"
+      ]
+    }
   }
 }

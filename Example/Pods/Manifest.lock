@@ -1,16 +1,16 @@
 PODS:
-  - PodSource (0.1.0)
+  - PodSource (0.1.1)
 
 DEPENDENCIES:
-  - PodSource (from `../PodSource-0.1.0/`)
+  - PodSource (from `../`)
 
 EXTERNAL SOURCES:
   PodSource:
-    :path: "../PodSource-0.1.0/"
+    :path: "../"
 
 SPEC CHECKSUMS:
-  PodSource: 348119f5941e48b01ce46f2eb1523fee28db4a1a
+  PodSource: bbf1d9973a65a35a1e229217c34b99125f7e32f8
 
-PODFILE CHECKSUM: c072c20d4efdc986f8823b026aaa0b9d0b4efdc6
+PODFILE CHECKSUM: 88ef6da9086db2c509a192e471550155e80a617b
 
 COCOAPODS: 1.6.1
