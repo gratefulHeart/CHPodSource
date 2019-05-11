@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PodSource'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A short description of PodSource.'
  
 
@@ -27,8 +27,8 @@ TODO: Add long description of the pod here.
 
   s.ios.source_files = 'PodSource/Classes/**/*'
   
-  s.ios.resource_bundles = {
-     'PodSource' => [ 'PodSource/Assets/*.png' ]
+  s.ios.resource_bundle = {
+     'PodSource' => 'PodSource/Assets/**/*.bundle'
   }
 
   # s.public_header_files = 'PodSource/Classes/**/*.h'

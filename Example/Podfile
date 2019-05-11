@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'PodSource_Example' do
-#  pod 'PodSource', :path => '../PodSource-0.1.1/'
+#  pod 'PodSource', :path => '../PodSource-0.1.2/'
   pod 'PodSource', :path => '../'
 
   

@@ -12,24 +12,27 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        [self addSubview: self.label];
+        [self addSubview: self.imageView];
         
         NSBundle *bundle = [NSBundle bundleForClass:self.class];
         NSString *path = bundle.bundlePath;
-        self.label.text = [NSString stringWithFormat:@"path=%@",path];
-         NSLog(@"%@",path);
+        NSString *file = [NSString stringWithFormat:@"%@/PodSource.bundle/PodSource.bundle/%@",path,@"image.png"];
+        self.imageView.image = [UIImage imageWithContentsOfFile:file];
+         NSLog(@"%@",file);
+        
     }
     return self;
 }
 
-- (UILabel *)label
+- (UIImageView *)imageView
 {
-    if (!_label) {
-        _label = [[UILabel alloc]initWithFrame:CGRectMake(10, 60, 300, 280)];
-        _label.numberOfLines = 0;
-        _label.backgroundColor = [UIColor redColor];
+    if (!_imageView) {
+        _imageView = [[UIImageView alloc]initWithFrame:CGRectMake(10, 60, 300, 280)];
+        _imageView.backgroundColor = [UIColor redColor];
+
     }
-    return _label;
+    return _imageView;
 }
+ 
 
 @end

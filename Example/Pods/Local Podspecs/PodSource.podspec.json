@@ -1,6 +1,6 @@
 {
   "name": "PodSource",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "A short description of PodSource.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/lichanghong/LaunchGif.git",
@@ -21,7 +21,7 @@
     "source_files": "PodSource/Classes/**/*",
     "resource_bundles": {
       "PodSource": [
-        "PodSource/Assets/*.png"
+        "PodSource/Assets/**/*.bundle"
       ]
     }
   }
