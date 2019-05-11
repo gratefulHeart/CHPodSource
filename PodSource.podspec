@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.ios.source_files = 'PodSource/Classes/**/*'
   
   s.ios.resource_bundle = {
-     'PodSource' => 'PodSource/Assets/**/*.bundle'
+     'PodSource' => 'PodSource/Assets/*.bundle'
   }
 
   # s.public_header_files = 'PodSource/Classes/**/*.h'

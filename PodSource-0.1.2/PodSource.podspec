@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.description = "TODO: Add long description of the pod here."
   s.source = { :path => '.' }
   s.ios.resource_bundles = {
-     'PodSource' => [ 'ios/PodSource.framework/Versions/A/Resources/PodSource.bundle' ]
+     'PodSource' => [ 'ios/PodSource.bundle' ]
   }
   s.ios.deployment_target    = '8.0'
   s.ios.vendored_framework   = 'ios/PodSource.framework'
