@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PodSource'
-  s.version          = '0.1.3'
+  s.version          = '0.1.3.1'
   s.summary          = 'A short description of PodSource.'
  
 
